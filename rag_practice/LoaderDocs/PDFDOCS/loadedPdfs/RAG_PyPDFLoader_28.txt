@@ -1,0 +1,22 @@
+28 
+ 
+ 
+print("COMPANY POLICY PDF") 
+print("==================") 
+ 
+ 
+print( 
+    "Total Documents:", 
+    len(documents) 
+) 
+ 
+ 
+# ======================================== 
+# DISPLAY EACH PAGE 
+# ======================================== 
+ 
+for document in documents: 
+ 
+    page_index = ( 
+        document.metadata["page"] 
+    )

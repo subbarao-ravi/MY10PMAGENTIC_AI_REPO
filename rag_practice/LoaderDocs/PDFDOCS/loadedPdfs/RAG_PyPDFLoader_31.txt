@@ -1,0 +1,22 @@
+31 
+ 
+    "is", 
+    "easy" 
+] 
+Then: 
+" ".join(...) 
+joins the words using one space. 
+Final result: 
+Python is easy 
+So this line helps produce cleaner one-line text for display. 
+ 
+26. Why Add 1 to Page Index? 
+page_index = document.metadata["page"] 
+ 
+page_number = page_index + 1 
+Because: 
+Metadata Page Index 
+      ↓ 
+Starts at 0 
+while students normally expect: 
+Displayed Page Number

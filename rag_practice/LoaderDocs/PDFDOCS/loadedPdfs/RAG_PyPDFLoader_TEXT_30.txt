@@ -1,0 +1,22 @@
+30 
+ 
+    print( 
+        "CONTENT:", 
+        text 
+    ) 
+ 
+25. Understanding This Line 
+text = " ".join( 
+    document.page_content.split() 
+) 
+Let us understand it step by step. 
+First: 
+document.page_content.split() 
+breaks the text into words using whitespace. 
+Example: 
+"Python    is 
+ 
+easy" 
+becomes approximately: 
+[ 
+    "Python",

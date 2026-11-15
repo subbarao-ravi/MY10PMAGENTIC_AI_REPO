@@ -1,0 +1,22 @@
+34 
+ 
+ 
+ 
+# ======================================== 
+# LOAD DOCUMENTS 
+# ======================================== 
+ 
+documents = loader.load() 
+ 
+ 
+# ======================================== 
+# DISPLAY PDF SUMMARY 
+# ======================================== 
+ 
+print("PDF METADATA REPORT") 
+print("===================") 
+ 
+ 
+print( 
+    "Total Documents:", 
+    len(documents)

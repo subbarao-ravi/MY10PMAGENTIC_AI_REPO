@@ -1,0 +1,22 @@
+52 
+ 
+    processed_pages += 1 
+ 
+ 
+    page_number = ( 
+        document.metadata["page"] + 1 
+    ) 
+ 
+ 
+    text = " ".join( 
+        document.page_content.split() 
+    ) 
+ 
+ 
+    print( 
+        "\nPAGE", 
+        page_number 
+    ) 
+ 
+    print( 
+        "---------------------"

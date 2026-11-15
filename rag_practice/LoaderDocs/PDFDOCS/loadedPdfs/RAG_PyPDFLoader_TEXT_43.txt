@@ -1,0 +1,20 @@
+43 
+ 
+) 
+ 
+print( 
+    len(page_documents) 
+) 
+ 
+ 
+print( 
+    "\nSINGLE MODE DOCUMENTS" 
+) 
+ 
+print( 
+    "---------------------" 
+) 
+ 
+print( 
+    len(single_documents) 
+)

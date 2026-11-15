@@ -1,0 +1,22 @@
+14 
+ 
+One Document 
+ 
+16. Understanding pages_delimiter 
+Suppose we use: 
+mode="single" 
+The PDF has three pages. 
+All page text will be combined. 
+But we may want to clearly identify page boundaries. 
+For this we can use: 
+pages_delimiter 
+Example: 
+loader = PyPDFLoader( 
+    file_path="company_policy.pdf", 
+    mode="single", 
+    pages_delimiter="\n--- PAGE BREAK ---\n" 
+) 
+The resulting text may look like: 
+Page 1 information 
+ 
+--- PAGE BREAK ---

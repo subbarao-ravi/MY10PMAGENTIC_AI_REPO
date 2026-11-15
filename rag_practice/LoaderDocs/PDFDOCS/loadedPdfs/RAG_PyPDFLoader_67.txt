@@ -1,0 +1,23 @@
+67 
+ 
+text. 
+C. It creates one Document for every line. 
+D. It performs OCR automatically. 
+Answer: B 
+Explanation 
+Single mode combines extracted page text into one Document. 
+Learning Conclusion 
+Page mode separates; single mode combines. 
+ 
+51. Five Final Revision Points 
+1. PyPDFLoader 
+   ↓ 
+   Loads PDF files 
+2. mode="page" 
+   ↓ 
+   One Document per Page 
+3. mode="single" 
+   ↓ 
+   One Combined Document 
+4. metadata["page"] 
+   ↓

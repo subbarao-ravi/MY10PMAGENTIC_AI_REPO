@@ -1,0 +1,22 @@
+13 
+ 
+   ↓ 
+Combined Page Text 
+ 
+15. mode="page" vs mode="single" 
+Page Mode 
+Page 1 → Document 1 
+Page 2 → Document 2 
+Page 3 → Document 3 
+Single Mode 
+Page 1 
+Page 2 
+Page 3 
+   ↓ 
+One Combined Document 
+Easy memory: 
+page 
+ ↓ 
+Many Documents 
+single 
+  ↓

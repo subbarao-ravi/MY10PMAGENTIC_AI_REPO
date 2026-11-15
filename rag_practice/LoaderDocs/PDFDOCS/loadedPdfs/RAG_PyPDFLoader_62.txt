@@ -1,0 +1,22 @@
+62 
+ 
+because page metadata uses zero-based indexing. 
+ 
+43. Common Mistake — Confusing Page Index with Total 
+Pages 
+document.metadata["page"] 
+means: 
+Current Page Index 
+whereas: 
+document.metadata["total_pages"] 
+means: 
+Total PDF Page Count 
+ 
+44. Common Mistake — Thinking Single Mode Gives Multiple 
+Documents 
+Wrong. 
+mode="single" 
+means: 
+All Extracted Page Text 
+        ↓ 
+One Document

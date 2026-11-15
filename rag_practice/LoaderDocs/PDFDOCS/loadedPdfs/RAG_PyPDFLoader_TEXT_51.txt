@@ -1,0 +1,21 @@
+51 
+ 
+ 
+# ======================================== 
+# CREATE PAGE-WISE PDF LOADER 
+# ======================================== 
+ 
+loader = PyPDFLoader( 
+    file_path=str(pdf_path), 
+    mode="page" 
+) 
+ 
+ 
+# ======================================== 
+# PROCESS PDF PAGES LAZILY 
+# ======================================== 
+ 
+processed_pages = 0 
+ 
+ 
+for document in loader.lazy_load():

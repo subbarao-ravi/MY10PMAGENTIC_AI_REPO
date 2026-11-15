@@ -1,0 +1,22 @@
+36 
+ 
+        ).name 
+    ) 
+ 
+ 
+    print( 
+        "Page Index:", 
+        metadata["page"] 
+    ) 
+ 
+ 
+    print( 
+        "Display Page:", 
+        metadata["page"] + 1 
+    ) 
+ 
+ 
+    print( 
+        "Page Label:", 
+        metadata.get( 
+            "page_label",

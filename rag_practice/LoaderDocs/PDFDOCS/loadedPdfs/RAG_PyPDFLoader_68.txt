@@ -1,0 +1,22 @@
+68 
+ 
+   Zero-Based Page Index 
+5. Scanned PDF 
+   ↓ 
+   May Require OCR 
+ 
+52. Final Master Diagram 
+                    SOURCE PDF 
+                        │ 
+                        ↓ 
+                   PyPDFLoader 
+                        │ 
+             ┌──────────┴───────────┐ 
+             │                      │ 
+             ↓                      ↓ 
+         PAGE MODE              SINGLE MODE 
+             │                      │ 
+             ↓                      ↓ 
+       Page 1 → Doc 1          All Pages 
+       Page 2 → Doc 2              ↓ 
+       Page 3 → Doc 3          One Document

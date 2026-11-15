@@ -1,0 +1,17 @@
+57 
+ 
+37. Why Detect Empty Text? 
+Suppose: 
+text = " ".join( 
+    document.page_content.split() 
+) 
+returns: 
+"" 
+Then that page contains no extracted text. 
+Possible reasons from the notes include: 
+Blank Page 
+ 
+Scanned Page 
+ 
+Different Extraction 
+Approach Required

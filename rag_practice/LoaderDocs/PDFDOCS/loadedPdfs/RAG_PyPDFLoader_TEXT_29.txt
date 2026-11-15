@@ -1,0 +1,21 @@
+29 
+ 
+ 
+    page_number = ( 
+        page_index + 1 
+    ) 
+ 
+ 
+    text = " ".join( 
+        document.page_content.split() 
+    ) 
+ 
+ 
+    print( 
+        "\nPAGE", 
+        page_number 
+    ) 
+ 
+    print( 
+        "---------------------" 
+    )

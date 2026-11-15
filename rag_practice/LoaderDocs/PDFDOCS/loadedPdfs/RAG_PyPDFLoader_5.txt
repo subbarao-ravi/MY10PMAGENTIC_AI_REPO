@@ -1,0 +1,22 @@
+5 
+ 
+TXT File 
+   ↓ 
+Mostly Sequential Text 
+ 
+PDF File 
+   ↓ 
+Structured Document 
+   ↓ 
+Text + Pages + Positions + Formatting 
+ 
+5. TextLoader vs PyPDFLoader 
+TextLoader PyPDFLoader 
+Reads plain text files Reads PDF files 
+Works with .txt Works with .pdf 
+Usually one Document per 
+file 
+Can produce one Document per 
+page 
+Source metadata Source + PDF-specific metadata 
+Uses TextLoader Uses PyPDFLoader

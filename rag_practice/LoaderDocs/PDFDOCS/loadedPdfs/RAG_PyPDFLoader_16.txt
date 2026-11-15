@@ -1,0 +1,22 @@
+16 
+ 
+Iterate lazily loader.lazy_load() 
+Read page 
+text document.page_content 
+Read page 
+index document.metadata["page"] 
+Read page 
+count document.metadata["total_pages"] 
+Read page 
+label document.metadata.get("page_label") 
+Read source document.metadata["source"] 
+Page 
+separator pages_delimiter="..." 
+ 
+18. Five Important Observations 
+1. PyPDFLoader is used for PDF documents. 
+2. Page mode is the default in the API described in these 
+notes. 
+3. One PDF may produce multiple Document objects. 
+4. PDF page metadata uses zero-based indexing. 
+5. Scanned PDFs may require OCR to obtain useful text.

@@ -1,0 +1,22 @@
+46 
+ 
+) 
+ 
+print( 
+    "--------------------" 
+) 
+ 
+ 
+pages = ( 
+    document.page_content.split( 
+        "--- PAGE BREAK ---" 
+    ) 
+) 
+ 
+ 
+for number, text in enumerate( 
+    pages, 
+    start=1 
+): 
+ 
+    clean_text = " ".join(

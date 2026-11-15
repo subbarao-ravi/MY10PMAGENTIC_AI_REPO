@@ -1,0 +1,21 @@
+39 
+ 
+29. Why Is Metadata Important? 
+Suppose RAG returns some information such as: 
+Employees receive 20 days leave. 
+Metadata can help us identify: 
+Which PDF? 
+    ↓ 
+company_policy.pdf 
+ 
+Which Page? 
+    ↓ 
+Page 2 
+Therefore: 
+Extracted Content 
+       + 
+Metadata 
+       ↓ 
+Traceability 
+The source notes emphasize that PDF metadata preserves 
+useful source and page information.

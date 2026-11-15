@@ -1,0 +1,20 @@
+60 
+ 
+10. Scanned PDFs and complex layouts may require 
+specialized extraction or OCR. 
+ 
+40. TextLoader vs PyPDFLoader — Final Comparison 
+Concept TextLoader PyPDFLoader 
+File type .txt .pdf 
+Main 
+purpose Read plain text Extract PDF text 
+Output Document objects Document objects 
+Page 
+concept 
+Usually not 
+applicable Important 
+PDF 
+metadata No Yes 
+Page mode No Yes 
+Single mode No Yes 
+OCR Not relevant to plain text May be needed for scanned PDFs

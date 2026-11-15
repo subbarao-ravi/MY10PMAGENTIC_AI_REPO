@@ -1,0 +1,16 @@
+69 
+ 
+             │                      │ 
+             ↓                      ↓ 
+          Metadata            pages_delimiter 
+             │                      │ 
+             └──────────┬───────────┘ 
+                        ↓ 
+                  LangChain RAG 
+                    Pipeline 
+ 
+53. One-Line Conclusion 
+PyPDFLoader reads PDF files and converts their extracted 
+content into LangChain Document objects; page mode keeps 
+pages separate, while single mode combines the page text 
+into one Document.

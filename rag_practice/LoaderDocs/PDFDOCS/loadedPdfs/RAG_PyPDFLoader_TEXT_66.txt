@@ -1,0 +1,24 @@
+66 
+ 
+49. MCQ 2 
+What does: 
+document.metadata["page"] 
+represent? 
+A. Total number of PDF pages 
+B. Source filename 
+C. Zero-based PDF page index 
+D. PDF file size 
+Answer: C — Zero-based PDF page index 
+Explanation 
+The first page has index 0, the second page has index 1, and so 
+on. 
+Learning Conclusion 
+Computers may start counting at zero; users normally start 
+counting at one. 
+ 
+50. MCQ 3 
+What happens when PyPDFLoader uses: 
+mode="single" 
+on a multipage PDF? 
+A. It deletes extra pages. 
+B. It creates one Document containing combined extracted

@@ -1,0 +1,22 @@
+61 
+ 
+41. Common Mistake — Thinking One PDF Always Means One 
+Document 
+Wrong: 
+1 PDF 
+  = 
+1 Document 
+Not always. 
+In: 
+mode="page" 
+a three-page PDF normally produces: 
+3 Documents 
+ 
+42. Common Mistake — Thinking page=1 Means First Page 
+Remember: 
+page = 0 
+ ↓ 
+First Page 
+page = 1 
+ ↓ 
+Second Page

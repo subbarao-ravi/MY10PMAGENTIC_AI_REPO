@@ -1,0 +1,21 @@
+50 
+ 
+34. Program 5 — Lazy Loading and Empty Text Detection 
+Objective 
+Process PDF pages one by one and identify pages that contain 
+no extractable text. 
+from pathlib import Path 
+ 
+from langchain_community.document_loaders import ( 
+    PyPDFLoader 
+) 
+ 
+ 
+# ======================================== 
+# SPECIFY PDF FILE 
+# ======================================== 
+ 
+pdf_path = ( 
+    Path(__file__).resolve().parent 
+    / "company_policy.pdf" 
+)

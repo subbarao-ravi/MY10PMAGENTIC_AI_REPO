@@ -1,0 +1,22 @@
+40 
+ 
+30. Program 4 — mode="page" vs mode="single" 
+from pathlib import Path 
+ 
+from langchain_community.document_loaders import ( 
+    PyPDFLoader 
+) 
+ 
+ 
+# ======================================== 
+# SPECIFY PDF FILE 
+# ======================================== 
+ 
+pdf_path = ( 
+    Path(__file__).resolve().parent 
+    / "company_policy.pdf" 
+) 
+ 
+ 
+# ======================================== 
+# PAGE MODE

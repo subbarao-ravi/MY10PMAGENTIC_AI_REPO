@@ -1,0 +1,22 @@
+47 
+ 
+        text.split() 
+    ) 
+ 
+ 
+    print( 
+        "\nSECTION", 
+        number 
+    ) 
+ 
+    print( 
+        clean_text 
+    ) 
+ 
+31. Program 4 Main Flow 
+company_policy.pdf 
+        │ 
+        ├─────────────────────┐ 
+        │                     │ 
+        ↓                     ↓ 
+   mode="page"           mode="single"

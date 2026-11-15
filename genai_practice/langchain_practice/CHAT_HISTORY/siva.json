@@ -1,0 +1,110 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "i am subbarao ravi",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "Nice to meet you, Subbarao Ravi! How can I assist you today?",
+      "additional_kwargs": {
+        "reasoning_content": "We need to respond. The user says \"i am subbarao ravi\". Likely they are introducing themselves. We can respond politely, ask how we can help. No disallowed content. So respond friendly."
+      },
+      "response_metadata": {
+        "token_usage": {
+          "completion_tokens": 70,
+          "prompt_tokens": 85,
+          "total_tokens": 155,
+          "completion_time": 0.148089597,
+          "completion_tokens_details": {
+            "reasoning_tokens": 44
+          },
+          "prompt_time": 0.003923664,
+          "prompt_tokens_details": null,
+          "queue_time": 0.31758423,
+          "total_time": 0.152013261
+        },
+        "model_name": "openai/gpt-oss-120b",
+        "system_fingerprint": "fp_4200b3f836",
+        "service_tier": "on_demand",
+        "finish_reason": "stop",
+        "logprobs": null,
+        "model_provider": "groq"
+      },
+      "type": "ai",
+      "name": null,
+      "id": "lc_run--01a1b24f-cfaf-77f8-9cd4-198901ce2c1b-0",
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 85,
+        "output_tokens": 70,
+        "total_tokens": 155,
+        "output_token_details": {
+          "reasoning": 44
+        }
+      }
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "i am die hard devotee of lord shiva",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "It’s wonderful to meet a fellow devotee of Lord Shiva! 🙏\n\nIs there something specific you’d like to talk about—perhaps a particular story, mantra, meditation practice, or any question you have about Shiva worship? I’m happy to help with information, suggestions for daily devotion, or anything else you have in mind.",
+      "additional_kwargs": {
+        "reasoning_content": "The user says: \"i am die hard devotee of lord shiva\". Then \"i am subbarao ravi\". The assistant responded with greeting. Now the user hasn't asked a question yet. We need to respond appropriately, maybe ask how can help, or talk about Shiva devotion. Should be friendly. No policy issues."
+      },
+      "response_metadata": {
+        "token_usage": {
+          "completion_tokens": 143,
+          "prompt_tokens": 122,
+          "total_tokens": 265,
+          "completion_time": 0.30527387,
+          "completion_tokens_details": {
+            "reasoning_tokens": 67
+          },
+          "prompt_time": 0.010574267,
+          "prompt_tokens_details": null,
+          "queue_time": 0.156925871,
+          "total_time": 0.315848137
+        },
+        "model_name": "openai/gpt-oss-120b",
+        "system_fingerprint": "fp_69334c0be3",
+        "service_tier": "on_demand",
+        "finish_reason": "stop",
+        "logprobs": null,
+        "model_provider": "groq"
+      },
+      "type": "ai",
+      "name": null,
+      "id": "lc_run--01a1b250-4a5f-772a-be00-7d2c48c74b01-0",
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 122,
+        "output_tokens": 143,
+        "total_tokens": 265,
+        "output_token_details": {
+          "reasoning": 67
+        }
+      }
+    }
+  }
+]

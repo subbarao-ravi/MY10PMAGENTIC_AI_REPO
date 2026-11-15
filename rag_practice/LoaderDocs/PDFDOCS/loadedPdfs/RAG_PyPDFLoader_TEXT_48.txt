@@ -1,0 +1,22 @@
+48 
+ 
+        ↓                     ↓ 
+Document per Page       One Combined Document 
+        ↓                     ↓ 
+Page Metadata          pages_delimiter 
+Available              Separates Text 
+ 
+32. Document Count Comparison 
+Suppose a PDF has three pages. 
+Page Mode 
+3 Pages 
+   ↓ 
+3 Documents 
+Single Mode 
+3 Pages 
+   ↓ 
+1 Document 
+Easy memory: 
+page 
+ ↓ 
+Page → Document

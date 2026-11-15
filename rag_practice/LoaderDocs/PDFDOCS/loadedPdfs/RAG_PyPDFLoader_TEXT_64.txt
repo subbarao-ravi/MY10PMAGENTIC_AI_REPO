@@ -1,0 +1,22 @@
+64 
+ 
+47. Student Memory Formula 
+PDF 
+ ↓ 
+PyPDFLoader 
+ ↓ 
+Document Objects 
+ ↓ 
+page_content 
++ 
+metadata 
+For page mode: 
+PDF 
+ ↓ 
+Pages 
+ ↓ 
+One Document per Page 
+For single mode: 
+PDF 
+ ↓ 
+All Pages

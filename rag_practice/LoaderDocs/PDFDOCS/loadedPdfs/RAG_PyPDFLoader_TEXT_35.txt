@@ -1,0 +1,22 @@
+35 
+ 
+) 
+ 
+ 
+# ======================================== 
+# DISPLAY METADATA FOR EACH PAGE 
+# ======================================== 
+ 
+for document in documents: 
+ 
+    metadata = document.metadata 
+ 
+ 
+    print("\nPAGE METADATA") 
+    print("-------------") 
+ 
+ 
+    print( 
+        "Source:", 
+        Path( 
+            metadata["source"]

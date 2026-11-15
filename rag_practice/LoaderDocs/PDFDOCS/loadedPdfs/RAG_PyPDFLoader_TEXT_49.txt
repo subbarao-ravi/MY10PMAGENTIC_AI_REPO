@@ -1,0 +1,22 @@
+49 
+ 
+single 
+  ↓ 
+PDF → Document 
+ 
+33. Why Use pages_delimiter in Single Mode? 
+Without a delimiter: 
+Page 1 text Page 2 text Page 3 text 
+may be harder to visually separate. 
+With: 
+pages_delimiter="\n--- PAGE BREAK ---\n" 
+we can get: 
+Page 1 text 
+ 
+--- PAGE BREAK --- 
+ 
+Page 2 text 
+ 
+--- PAGE BREAK --- 
+ 
+Page 3 text

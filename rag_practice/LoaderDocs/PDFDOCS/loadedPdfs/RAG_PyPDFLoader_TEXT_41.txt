@@ -1,0 +1,22 @@
+41 
+ 
+# ======================================== 
+ 
+page_loader = PyPDFLoader( 
+    file_path=str(pdf_path), 
+    mode="page" 
+) 
+ 
+ 
+page_documents = ( 
+    page_loader.load() 
+) 
+ 
+ 
+# ======================================== 
+# SINGLE MODE 
+# ======================================== 
+ 
+single_loader = PyPDFLoader( 
+    file_path=str(pdf_path), 
+    mode="single",

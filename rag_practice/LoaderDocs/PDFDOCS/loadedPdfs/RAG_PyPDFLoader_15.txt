@@ -1,0 +1,21 @@
+15 
+ 
+ 
+Page 2 information 
+ 
+--- PAGE BREAK --- 
+ 
+Page 3 information 
+pages_delimiter helps preserve visible separation between 
+extracted page texts in single mode. 
+ 
+17. Important PyPDFLoader Syntax 
+Requirement Syntax 
+Import loader from langchain_community.document_loaders import PyPDFLoader 
+Create loader PyPDFLoader(file_path="sample.pdf") 
+Page-wise 
+loading mode="page" 
+Combined 
+loading mode="single" 
+Load all 
+Documents loader.load()

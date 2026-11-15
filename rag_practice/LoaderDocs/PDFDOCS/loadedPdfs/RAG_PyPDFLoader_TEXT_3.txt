@@ -1,0 +1,23 @@
+3 
+ 
+and converts their contents into: 
+LangChain Document Objects 
+Today we move from: 
+TextLoader 
+    ↓ 
+Plain Text Files 
+to: 
+PyPDFLoader 
+    ↓ 
+PDF Files 
+ 
+3. What Is PyPDFLoader? 
+PyPDFLoader helps LangChain applications read PDF files and 
+represent the extracted content as Document objects. 
+Definition 
+PyPDFLoader is a LangChain Document Loader that reads and 
+parses PDF files using the pypdf library. 
+Simple flow: 
+PDF File 
+   ↓ 
+PyPDFLoader

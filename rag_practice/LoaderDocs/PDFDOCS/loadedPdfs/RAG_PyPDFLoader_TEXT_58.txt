@@ -1,0 +1,22 @@
+58 
+ 
+38. Complete PyPDFLoader Architecture 
+                     PDF FILE 
+                        │ 
+                        ↓ 
+                   PyPDFLoader 
+                        │ 
+             ┌──────────┴──────────┐ 
+             │                     │ 
+             ↓                     ↓ 
+        mode="page"           mode="single" 
+             │                     │ 
+             ↓                     ↓ 
+      Document per Page      One Document 
+             │                     │ 
+             ↓                     ↓ 
+      Page Metadata       Combined Page Text 
+             │                     │ 
+             └──────────┬──────────┘ 
+                        ↓ 
+                LangChain Documents

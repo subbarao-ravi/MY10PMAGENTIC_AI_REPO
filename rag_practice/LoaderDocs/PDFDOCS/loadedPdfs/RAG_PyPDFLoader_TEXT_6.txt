@@ -1,0 +1,20 @@
+6 
+ 
+Easy memory: 
+.txt 
+ ↓ 
+TextLoader 
+.pdf 
+ ↓ 
+PyPDFLoader 
+ 
+6. Import PyPDFLoader 
+from langchain_community.document_loaders import 
+PyPDFLoader 
+ 
+7. What Is the Role of pypdf? 
+PyPDFLoader uses another Python library internally: 
+pypdf 
+The pypdf library helps process PDF files and extract their text. 
+Installation: 
+pip install pypdf

@@ -1,0 +1,21 @@
+54 
+ 
+ 
+        print( 
+            "Check whether the page is blank," 
+            " scanned, or requires a different" 
+            " extraction approach." 
+        ) 
+ 
+ 
+# ======================================== 
+# DISPLAY TOTAL 
+# ======================================== 
+ 
+print( 
+    "\nTOTAL PAGES PROCESSED" 
+) 
+ 
+print( 
+    "---------------------" 
+)

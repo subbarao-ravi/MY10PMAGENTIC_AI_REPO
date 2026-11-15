@@ -1,0 +1,22 @@
+42 
+ 
+    pages_delimiter= 
+    "\n--- PAGE BREAK ---\n" 
+) 
+ 
+ 
+single_documents = ( 
+    single_loader.load() 
+) 
+ 
+ 
+# ======================================== 
+# COMPARE DOCUMENT COUNTS 
+# ======================================== 
+ 
+print( 
+    "PAGE MODE DOCUMENTS" 
+) 
+ 
+print( 
+    "-------------------"

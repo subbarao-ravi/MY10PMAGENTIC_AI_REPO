@@ -1,0 +1,21 @@
+56 
+ 
+Page Document 3 
+ ↓ 
+Process 
+This is different from: 
+loader.load() 
+which collects the Documents into a list. 
+ 
+36. load() vs lazy_load() 
+load() lazy_load() 
+Returns collected Documents Yields Documents 
+Easy for normal loading Useful for iterative processing 
+Often work with a list Often work with a loop 
+Simple: 
+load() 
+ ↓ 
+Collect First 
+lazy_load() 
+ ↓ 
+Process as Yielded

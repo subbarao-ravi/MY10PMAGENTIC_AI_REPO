@@ -1,0 +1,22 @@
+21 
+ 
+    len(documents) 
+) 
+ 
+ 
+# ======================================== 
+# ACCESS FIRST DOCUMENT 
+# ======================================== 
+ 
+document = documents[0] 
+ 
+ 
+# ======================================== 
+# DISPLAY EXTRACTED CONTENT 
+# ======================================== 
+ 
+print("\nPAGE CONTENT") 
+print("------------") 
+ 
+print( 
+    document.page_content

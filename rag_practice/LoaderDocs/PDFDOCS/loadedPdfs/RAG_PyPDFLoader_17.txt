@@ -1,0 +1,24 @@
+17 
+ 
+19. Text-Based PDF vs Scanned PDF 
+There are two important types of PDFs. 
+Text-Based PDF Scanned PDF 
+Contains extractable text May contain only images 
+Text can often be selected Text may not be selectable 
+PyPDFLoader can commonly 
+extract text 
+Basic extraction may return 
+little/no text 
+OCR usually not required OCR may be required 
+ 
+20. What Is OCR? 
+OCR stands for: 
+Optical Character Recognition 
+OCR helps convert text visible inside images into machine-
+readable text. 
+Simple flow: 
+Scanned Page Image 
+       ↓ 
+OCR 
+       ↓ 
+Recognized Text

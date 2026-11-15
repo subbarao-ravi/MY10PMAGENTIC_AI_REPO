@@ -1,0 +1,22 @@
+24 
+ 
+ 
+ 
+print( 
+    "Total Pages:", 
+    document.metadata["total_pages"] 
+) 
+ 
+22. Program 1 Flow 
+library_notice.pdf 
+        ↓ 
+PyPDFLoader 
+        ↓ 
+loader.load() 
+        ↓ 
+List of Documents 
+        ↓ 
+documents[0] 
+        ↓ 
+page_content 
++

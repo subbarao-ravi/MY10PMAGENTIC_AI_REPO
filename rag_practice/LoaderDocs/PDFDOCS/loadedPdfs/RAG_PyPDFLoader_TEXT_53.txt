@@ -1,0 +1,22 @@
+53 
+ 
+    ) 
+ 
+ 
+    if text: 
+ 
+        print( 
+            "STATUS: Text extracted" 
+        ) 
+ 
+        print( 
+            "CONTENT:", 
+            text 
+        ) 
+ 
+ 
+    else: 
+ 
+        print( 
+            "STATUS: No extractable text" 
+        )

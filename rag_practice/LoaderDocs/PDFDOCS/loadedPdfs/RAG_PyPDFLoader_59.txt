@@ -1,0 +1,23 @@
+59 
+ 
+                        │ 
+               ┌────────┴────────┐ 
+               ↓                 ↓ 
+         page_content          metadata 
+ 
+39. Important Notes 
+1. PyPDFLoader is a LangChain Document Loader for PDF 
+files. 
+2. It uses pypdf for PDF processing. 
+3. It returns LangChain Document objects through the 
+common loader interface. 
+4. The source notes describe the current default as 
+mode="page". 
+5. Page mode normally creates one Document per PDF page. 
+6. PDF metadata includes information such as source, page 
+index and total page count. 
+7. page metadata starts at zero. 
+8. mode="single" combines extracted page text into one 
+Document. 
+9. .lazy_load() supports processing page Documents as they 
+are yielded.

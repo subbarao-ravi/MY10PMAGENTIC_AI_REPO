@@ -1,0 +1,20 @@
+8 
+ 
+9. Understanding mode="page" 
+mode="page" 
+In page mode: 
+Each PDF page is represented as a separate LangChain 
+Document. 
+Example: 
+PDF 
+3 Pages 
+   ↓ 
+mode="page" 
+   ↓ 
+Document 1 → Page 1 
+Document 2 → Page 2 
+Document 3 → Page 3 
+Normally: 
+Number of PDF Pages 
+        = 
+Number of Documents

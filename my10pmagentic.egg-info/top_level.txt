@@ -1,0 +1,2 @@
+genai_practice
+rag_practice

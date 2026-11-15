@@ -1,0 +1,22 @@
+55 
+ 
+print( 
+    processed_pages 
+) 
+ 
+35. What Does lazy_load() Do? 
+loader.lazy_load() 
+allows us to process Document objects as they are yielded. 
+Concept: 
+PDF 
+ ↓ 
+lazy_load() 
+ ↓ 
+Page Document 1 
+ ↓ 
+Process 
+ ↓ 
+Page Document 2 
+ ↓ 
+Process 
+ ↓

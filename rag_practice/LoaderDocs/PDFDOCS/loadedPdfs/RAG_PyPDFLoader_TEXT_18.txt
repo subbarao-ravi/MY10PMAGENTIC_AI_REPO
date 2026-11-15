@@ -1,0 +1,23 @@
+18 
+ 
+According to the source notes, default PyPDFLoader text 
+extraction does not automatically perform OCR on scanned 
+pages. 
+ 
+21. Program 1 — Our First PyPDFLoader Program 
+Objective 
+Load a single-page PDF and access: 
+• Content 
+• Source 
+• Page index 
+• Total pages 
+• Metadata 
+from pathlib import Path 
+ 
+from langchain_community.document_loaders import ( 
+    PyPDFLoader 
+) 
+ 
+ 
+# ======================================== 
+# SPECIFY PDF FILE PATH

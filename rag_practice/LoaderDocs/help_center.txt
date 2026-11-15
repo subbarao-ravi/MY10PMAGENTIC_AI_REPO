@@ -1,0 +1,40 @@
+How to reset your password (website)
+To reset your password, click Forgot Password on the login page. Enter the email address linked to your account and select Send Reset Link. You will receive an email with a link to create a new password.
+
+How to reset your password (login screen)
+Click Forgot Password on the login screen to reset your password. Type your registered email address and press Send Reset Link. A password reset email will be sent to you.
+
+How to reset your password (mobile app)
+On the sign-in page of the mobile app, choose Forgot Password to reset your password. Enter your account email and tap Send Reset Link. Open the email on your phone and follow the link to set a new password.
+
+Password reset links expire
+Password reset links expire after 15 minutes. If your link has expired, return to the login page, click Forgot Password again, and request a new link. Only the most recent link will work.
+
+Did not receive the reset email?
+If you don't get the reset email, check your spam or junk folder. Make sure you entered the same email address you used to register. It can take up to 5 minutes for the email to arrive. If it still does not show up, request another link or contact support.
+
+Password requirements
+Your new password must be at least 8 characters long. It must include at least one uppercase letter, one lowercase letter, and one number. You cannot reuse any of your last 5 passwords.
+
+
+Account locked after failed attempts
+After 5 failed login attempts your account is locked for 30 minutes. You can wait for the lock to expire or reset your password to unlock your account immediately.
+
+Two-factor authentication
+Two-factor authentication adds an extra layer of security. After entering your password you will be asked for a 6-digit code from your authenticator app. If you lose access to your authenticator app, contact support to verify your identity.
+
+How to change your password while signed in
+If you already know your password, go to Settings, then Security, then Change Password. Enter your current password and your new password twice, then save. You do not need to use Forgot Password for this.
+
+
+How to update your payment method
+Go to Settings, then Billing, then Payment Methods. Select Add New Card, enter your card details, and set it as the default. Your next invoice will be charged to the new card.
+
+How to download invoices
+Open Settings, then Billing, then Invoice History. Choose the invoice you need and click Download PDF.
+
+Contacting support
+You can reach our support team by email at support@acme.example or through the Help button inside the app. Please include your account email and a short description of the problem.
+
+Office and support hours
+Our office is open Monday to Friday, 9am to 5pm. Support requests sent outside these hours will be answered on the next business day.

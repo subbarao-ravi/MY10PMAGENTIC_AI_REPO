@@ -1,0 +1,22 @@
+23 
+ 
+print("-----------") 
+ 
+print( 
+    Path( 
+        document.metadata["source"] 
+    ).name 
+) 
+ 
+ 
+# ======================================== 
+# DISPLAY PDF PAGE INFORMATION 
+# ======================================== 
+ 
+print("\nPAGE INFORMATION") 
+print("----------------") 
+ 
+print( 
+    "Page Index:", 
+    document.metadata["page"] 
+)

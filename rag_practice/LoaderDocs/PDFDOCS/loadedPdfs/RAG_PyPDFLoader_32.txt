@@ -1,0 +1,22 @@
+32 
+ 
+      ↓ 
+Starts at 1 
+Example: 
+page index 0 → page number 1 
+page index 1 → page number 2 
+page index 2 → page number 3 
+ 
+27. Program 3 — Understanding PDF Metadata in Detail 
+Objective 
+Examine: 
+• Source 
+• Page index 
+• Display page 
+• Page label 
+• Total pages 
+from pathlib import Path 
+ 
+from langchain_community.document_loaders import ( 
+    PyPDFLoader 
+)

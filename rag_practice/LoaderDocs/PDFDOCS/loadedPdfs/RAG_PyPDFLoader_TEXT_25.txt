@@ -1,0 +1,20 @@
+25 
+ 
+metadata 
+ 
+23. Important Observation 
+documents = loader.load() 
+returns: 
+List 
+Then: 
+document = documents[0] 
+returns: 
+Document 
+So: 
+documents 
+   ↓ 
+List 
+ 
+documents[0] 
+   ↓ 
+Document

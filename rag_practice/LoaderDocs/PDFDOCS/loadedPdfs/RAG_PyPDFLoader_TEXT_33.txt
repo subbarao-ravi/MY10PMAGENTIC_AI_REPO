@@ -1,0 +1,22 @@
+33 
+ 
+ 
+ 
+# ======================================== 
+# SPECIFY PDF FILE 
+# ======================================== 
+ 
+pdf_path = ( 
+    Path(__file__).resolve().parent 
+    / "company_policy.pdf" 
+) 
+ 
+ 
+# ======================================== 
+# CREATE PDF LOADER 
+# ======================================== 
+ 
+loader = PyPDFLoader( 
+    file_path=str(pdf_path), 
+    mode="page" 
+)

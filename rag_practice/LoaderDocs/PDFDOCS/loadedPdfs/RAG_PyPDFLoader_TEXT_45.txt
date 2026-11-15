@@ -1,0 +1,22 @@
+45 
+ 
+ 
+ 
+print( 
+    "Total Pages:", 
+    document.metadata["total_pages"] 
+) 
+ 
+ 
+print( 
+    "Page Index Available:", 
+    "page" in document.metadata 
+) 
+ 
+ 
+# ======================================== 
+# DISPLAY COMBINED PAGE CONTENT 
+# ======================================== 
+ 
+print( 
+    "\nCOMBINED PDF CONTENT"

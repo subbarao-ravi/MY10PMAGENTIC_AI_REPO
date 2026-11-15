@@ -1,0 +1,20 @@
+65 
+ 
+ ↓ 
+One Combined Document 
+ 
+48. MCQ 1 
+A PDF contains five pages. 
+PyPDFLoader uses: 
+mode="page" 
+How many Document objects will it normally produce? 
+A. 1 
+B. 5 
+C. 10 
+D. 0 
+Answer: B — 5 
+Explanation 
+Page mode normally creates one Document for each PDF page. 
+Learning Conclusion 
+One page, one Document — that is the simple rule of page 
+mode.

@@ -1,0 +1,21 @@
+10 
+ 
+11. Important Metadata Fields 
+Metadata Field Meaning 
+source PDF source location 
+page Page index starting from 0 
+page_label Page label defined by the PDF 
+total_pages Total number of pages 
+producer PDF producer information, when available 
+creator PDF creator information, when available 
+ 
+12. Very Important — page Starts from Zero 
+Suppose a PDF has three pages. 
+Actual Page      Metadata page 
+-----------      ------------- 
+Page 1              0 
+Page 2              1 
+Page 3              2 
+So: 
+document.metadata["page"] 
+is a zero-based page index.

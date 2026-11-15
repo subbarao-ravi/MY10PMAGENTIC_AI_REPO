@@ -1,0 +1,19 @@
+63 
+ 
+45. Common Mistake — Thinking pages_delimiter Splits into 
+Documents 
+pages_delimiter does not mean: 
+Create Multiple Documents 
+It means: 
+Put a Visible Separator 
+Between Combined Page Text 
+when using single mode. 
+ 
+46. Common Mistake — Thinking PyPDFLoader Automatically 
+Solves Every Scanned PDF 
+A scanned PDF may mainly contain page images. 
+Therefore basic text extraction may return: 
+Very Little Text 
+or: 
+No Extractable Text 
+Such cases may require OCR or another extraction approach.

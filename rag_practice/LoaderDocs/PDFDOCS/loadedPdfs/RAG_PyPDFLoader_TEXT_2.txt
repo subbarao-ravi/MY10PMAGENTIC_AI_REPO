@@ -1,0 +1,22 @@
+2 
+ 
+          ↓ 
+       Information About Content 
+Example metadata: 
+{ 
+    "source": "python_notes.txt" 
+} 
+ 
+2. Revision — TextLoader 
+In the previous session, we used: 
+from langchain_community.document_loaders import 
+TextLoader 
+ 
+loader = TextLoader( 
+    "student_rules.txt", 
+    encoding="utf-8" 
+) 
+ 
+documents = loader.load() 
+TextLoader reads: 
+.txt Files

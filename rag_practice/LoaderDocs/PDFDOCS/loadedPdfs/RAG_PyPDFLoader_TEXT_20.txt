@@ -1,0 +1,22 @@
+20 
+ 
+ 
+documents = loader.load() 
+ 
+ 
+# ======================================== 
+# DISPLAY RETURN INFORMATION 
+# ======================================== 
+ 
+print("RETURN TYPE") 
+print("-----------") 
+ 
+print( 
+    type(documents).__name__ 
+) 
+ 
+ 
+print("\nTOTAL DOCUMENTS") 
+print("---------------") 
+ 
+print(

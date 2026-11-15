@@ -1,0 +1,20 @@
+26 
+ 
+24. Program 2 — Loading a Multipage PDF 
+Objective 
+Load a three-page PDF and access each page separately. 
+from pathlib import Path 
+ 
+from langchain_community.document_loaders import ( 
+    PyPDFLoader 
+) 
+ 
+ 
+# ======================================== 
+# SPECIFY PDF FILE 
+# ======================================== 
+ 
+pdf_path = ( 
+    Path(__file__).resolve().parent 
+    / "company_policy.pdf" 
+)

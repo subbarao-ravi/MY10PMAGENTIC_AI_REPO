@@ -1,0 +1,53 @@
+ACME TECHNOLOGIES - COMPANY KNOWLEDGE BASE
+
+Acme Technologies is a software company headquartered in Hyderabad, India. It was founded in 2015 and builds cloud-based inventory and billing tools for small businesses. The company has about 250 employees across offices in Hyderabad, Bengaluru, and Pune.
+
+
+REFUND POLICY
+
+Customers can request a refund within 7 days of purchase if the product is unused and the invoice is available. Refunds are processed to the original payment method within 5 to 7 business days after approval. Digital licenses that have already been activated are not eligible for a refund. To request a refund, email refunds@acme-example.com with the order number and invoice copy.
+
+
+SHIPPING POLICY
+
+Acme ships hardware accessories such as barcode scanners and receipt printers. Standard shipping takes 3 to 5 business days within India and costs 99 rupees. Express shipping takes 1 to 2 business days and costs 249 rupees. Orders above 5000 rupees qualify for free standard shipping. International shipping is not available at this time.
+
+
+LEAVE POLICY
+
+Full-time employees receive 24 days of paid leave per year, plus 10 public holidays. Unused leave can be carried forward up to a maximum of 10 days into the next calendar year. Sick leave is separate and allows 12 days per year; a medical certificate is required for absences longer than 2 consecutive days. Maternity leave is 26 weeks and paternity leave is 2 weeks.
+
+
+WORK FROM HOME POLICY
+
+Employees may work from home up to 3 days per week with manager approval. Core collaboration hours are 11 AM to 4 PM India Standard Time, during which employees are expected to be available on chat and video calls. Employees working from home must use the company VPN when accessing internal systems.
+
+
+SUPPORT HOURS AND CONTACT
+
+The customer support team is available Monday to Saturday, from 9 AM to 8 PM India Standard Time. Support is closed on Sundays and national holidays. Customers can reach support by phone at 1800-000-1234, by email at support@acme-example.com, or through live chat on the website. The average first response time for email is 4 hours.
+
+
+PRICING PLANS
+
+Acme offers three subscription plans. The Starter plan costs 499 rupees per month and supports 1 user and up to 100 products. The Business plan costs 1499 rupees per month and supports up to 10 users and 5000 products. The Enterprise plan has custom pricing, supports unlimited users, and includes a dedicated account manager. Annual billing gives a 20 percent discount on all plans. A 14-day free trial is available for the Starter and Business plans, and no credit card is required.
+
+
+PASSWORD AND ACCOUNT SECURITY
+
+Passwords must be at least 12 characters long and include an uppercase letter, a lowercase letter, a number, and a special character. Passwords expire every 90 days. Two-factor authentication is mandatory for all employee accounts and recommended for customers. If you forget your password, use the Forgot Password link on the login page, and a reset link will be sent to your registered email, valid for 30 minutes.
+
+
+WHAT IS RAG
+
+RAG stands for Retrieval-Augmented Generation. In a RAG pipeline, documents are parsed, split into chunks, converted into embeddings, stored in a vector database, and retrieved at query time. The retrieved chunks are added to the prompt so the language model can answer using your own data instead of relying only on what it learned during training. RAG reduces hallucinations and lets a model answer questions about private or recent documents without retraining.
+
+
+CHUNKING AND EMBEDDINGS
+
+Chunking means splitting a long document into smaller pieces, usually 500 to 1000 characters each, with a small overlap of 50 to 100 characters so that sentences are not cut off from their context. An embedding is a list of numbers that represents the meaning of a piece of text. Texts with similar meanings have embeddings that are close together, which is measured using cosine similarity or Euclidean distance.
+
+
+VECTOR DATABASES
+
+A vector database stores embeddings and finds the nearest ones to a query quickly. Chroma is an open-source vector database that can run in memory or persist to disk, and it supports named collections. FAISS is a library from Meta for fast similarity search and is often used for local experiments. Many vector databases use the HNSW algorithm, which stands for Hierarchical Navigable Small World, to perform approximate nearest neighbor search.

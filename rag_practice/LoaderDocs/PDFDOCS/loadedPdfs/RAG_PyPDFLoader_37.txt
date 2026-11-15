@@ -1,0 +1,22 @@
+37 
+ 
+            "Not available" 
+        ) 
+    ) 
+ 
+ 
+    print( 
+        "Total Pages:", 
+        metadata["total_pages"] 
+    ) 
+ 
+28. Possible Output 
+PDF METADATA REPORT 
+=================== 
+Total Documents: 3 
+ 
+PAGE METADATA 
+------------- 
+Source: company_policy.pdf 
+Page Index: 0 
+Display Page: 1

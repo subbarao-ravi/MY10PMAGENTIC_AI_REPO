@@ -1,0 +1,20 @@
+9 
+ 
+10. PDF Metadata 
+PDF loaders can provide more metadata than a simple text 
+loader. 
+Possible information includes: 
+• Source PDF path 
+• PDF page index 
+• Total number of pages 
+• Page label 
+• Producer information 
+• Creator information 
+• Other available PDF properties 
+Example: 
+{ 
+    "source": "company_policy.pdf", 
+    "total_pages": 3, 
+    "page": 0, 
+    "page_label": "1" 
+}

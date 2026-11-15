@@ -1,0 +1,20 @@
+7 
+ 
+8. Creating a PyPDFLoader 
+Basic syntax: 
+loader = PyPDFLoader( 
+    file_path="employee_policy.pdf" 
+) 
+Important parameters include: 
+Parameter Purpose 
+file_path Identifies the PDF 
+mode Controls page-wise or single-document loading 
+pages_delimiter Separates pages in single mode 
+password Used for supported encrypted PDFs 
+The important point is: 
+PyPDFLoader 
+     ↓ 
+Reads PDF 
+     ↓ 
+mode controls how pages 
+become Document objects

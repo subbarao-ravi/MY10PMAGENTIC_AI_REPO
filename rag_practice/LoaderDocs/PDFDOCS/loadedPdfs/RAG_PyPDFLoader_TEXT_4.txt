@@ -1,0 +1,23 @@
+4 
+ 
+   ↓ 
+Extract Text 
+   ↓ 
+LangChain Document Objects 
+ 
+4. Why Is a PDF Different from a Normal Text File? 
+A plain text file mainly contains textual characters. 
+A PDF is designed to preserve the visual presentation of a 
+document. 
+A PDF may contain: 
+• Text 
+• Multiple pages 
+• Images 
+• Tables 
+• Fonts and formatting 
+• Page headers and footers 
+• Different text positions 
+PDF stands for: 
+Portable Document Format 
+PDF text extraction is not always the same as simply reading 
+characters from a .txt file.

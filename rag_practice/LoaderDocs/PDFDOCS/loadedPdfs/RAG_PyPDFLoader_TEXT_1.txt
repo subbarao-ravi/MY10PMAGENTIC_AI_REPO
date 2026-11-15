@@ -1,0 +1,22 @@
+1 
+ 
+PDF Document Loaders & PyPDFLoader 
+ 
+1. Quick Revision — LangChain Document 
+Previously, we created a Document manually: 
+from langchain_core.documents import Document 
+ 
+document = Document( 
+    page_content="Python is a programming language.", 
+    metadata={ 
+        "source": "python_notes.txt" 
+    } 
+) 
+A Document mainly contains: 
+Document 
+   │ 
+   ├── page_content 
+   │      ↓ 
+   │   Actual Content 
+   │ 
+   └── metadata

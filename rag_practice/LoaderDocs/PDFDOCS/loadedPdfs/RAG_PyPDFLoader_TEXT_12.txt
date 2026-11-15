@@ -1,0 +1,23 @@
+12 
+ 
+PDF metadata helps us trace extracted text back to the correct 
+location inside the original PDF. 
+ 
+14. Understanding mode="single" 
+Example: 
+loader = PyPDFLoader( 
+    file_path="company_policy.pdf", 
+    mode="single" 
+) 
+In single mode: 
+Text extracted from all PDF pages is combined into one 
+Document object. 
+Example: 
+PDF 
+Page 1 
+Page 2 
+Page 3 
+   ↓ 
+mode="single" 
+   ↓ 
+One Document
